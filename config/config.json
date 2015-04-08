@@ -1,0 +1,25 @@
+{
+  "name": "dandus",
+  "summary": "dandus",
+  "scheme": "http",
+  "host": "localhost",
+  "port": 3000,
+  "maxcontentlength": 2000000,
+  "context": "/r",
+  "cloudant": {
+    "provider": "{provider}",
+    "username": "{username}",
+    "password": "{password}"
+  },
+  "secret": "secret",
+  "sanitize": {
+    "plaintext": {
+      "http://www.w3.org/ns/activitystreams#displayName": true
+    },
+    "markup": {
+      "http://www.w3.org/ns/activitystreams#title": true,
+      "http://www.w3.org/ns/activitystreams#summary": true,
+      "http://www.w3.org/ns/activitystreams#content": true
+    }
+  }
+}

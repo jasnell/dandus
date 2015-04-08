@@ -1,0 +1,17 @@
+{
+  "@context": {
+    "p": "http://ns.jasnell.me/problem#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "type": "@type",
+    "title": "p:title",
+    "status": {
+      "@id": "p:status",
+      "@type": "xsd:nonNegativeInteger"
+    },
+    "detail": "p:detail",
+    "instance": {
+      "@id": "p:instance",
+      "@type": "@id"
+    }
+  }
+}

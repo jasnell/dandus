@@ -1,0 +1,22 @@
+{
+  "name": "dandus",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "author": "James M Snell <jasnell@gmail.com>",
+  "license": "Apache v2.0",
+  "dependencies": {
+    "activitystrea.ms": "0.0.20",
+    "activitystreams-context": "^0.2.0",
+    "agentkeepalive": "^0.2.2",
+    "etag": "^1.5.1",
+    "express": "^5.0.0-alpha.1",
+    "express-session": "^1.10.1",
+    "http-problem": "0.0.2",
+    "jsonld": "^0.3.19",
+    "n3": "^0.4.0",
+    "nano": "^6.0.2",
+    "parse-link-header": "^0.2.0",
+    "sanitize-html": "^1.5.2"
+  }
+}
